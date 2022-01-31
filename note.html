@@ -1,0 +1,46 @@
+<!-- 
+
+    Reset CSS: normalizer css cdn
+    Khi hover vào element để thuộc tính color: rgba thì các element còn sẽ dc kế thừa thuộc tính này
+    Khi hover vào element để thuộc tính opacity thì cả element cha và con đều bị ảnh hưởng ko thể ghi đè từ bên trong element con
+    Khi use display:flex thì item mà là img thì img sẽ bị méo
+    flex container bên trong là thẻ img thì img này là flex-item sẽ bằng kích thước chiều dọc của flex-container
+    ==> thêm thẻ span bên ngoài thẻ img or thêm vào object-fit
+    -webkit: prefile cho mỗi trình duyệt -webkit chrome, idge, coc coc; -moz: mozila, IE: -ms
+    transform-origin dùng để định tâm transfrom
+    will-change: nói cho trình duyệt thuộc tính gì animation gì sẽ thay đổi ở đối tượng này giúp tối ưu animation của m;
+    position viết sau sẽ ghi đè position viết trước (nếu cùng cấp)
+    tips tracking: muốn cách 2 phần tử 1 khoảng thì có thể dùng thể span
+    svg là ảnh dạng vecto khi zoom to or nhỏ ảnh ko bị vỡ coppy html vào (htm beatiful)
+    fill color svg css
+    link / trở về trang chủ
+    .grid {
+        .row {
+            .col {
+                
+            }
+        }
+    }
+    element cha:  display: flex; element con:  margin: auto
+    khi use background-image thì css viết bằng inline
+    background-image: giới hạn dc kích thước hình ảnh và luôn hiển thị trọng tâm hình ảnh
+    zoom, scale() phóng to thu nhỏ
+    currentColor
+    flaticon.com
+    khi ko cần chia cột thì chỉ cần đặt grid
+    overflow: auto khi box vượt quá kích thước sẽ hiện nên thanh kéo scroll
+    google analytics
+    default: flex: 0 1 auto;
+    flex-grow: 0 - nó làm cho các phần tử giãn ra theo độ rộng của container
+    VD: container có 3 items:
+    thêm flex-grow: 1 vào item1 thì nó sẽ chiếm hết chiều ngang còn dư của container
+    nếu thêm vào items = 1 ngoại trừ item2 thì xét flex-grow: 3
+    1 + 3 + 1: item1 chiếm 1/5 item2 chiếm 3/5 item3 chiếm 1/5 kích thước còn lại của container
+
+    flex-shrink: 1 phần tử sẽ auto co nhỏ lại khi giảm kích thước của container
+    flex-shrink: 0 ko co nhỏ lại khi giảm kích thước của container chỉ lấy đúng kích thước item
+    nth-of-type(2n + 1): chọn ra phần tử dc lặp theo 1 quy luật nhất định
+    pseudo class ::-webkit-scrollbar 
+    -webkit-tap-highlight-color
+
+ -->
